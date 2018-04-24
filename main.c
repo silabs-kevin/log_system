@@ -77,6 +77,7 @@ uint8_t boot_to_dfu = 0;
 
 static void log_test(void) {
 	LOGE("This is an ERROR message.\r\n");
+	ERROR_ADDRESSING();
 	LOGW("This is an WARNING message.\r\n");
 	LOGI("This is an INFORMATION message.\r\n");
 	LOGD("This is an DEBUG message.\r\n");
